@@ -16,10 +16,10 @@ int main() {
   vec Y;
   mat X,Z,W;
 
-  Y.load("Y.smat");
-  X.load("X.smat");
-  Z.load("Z.smat");
-  W.load("W.smat");
+  Y.load("data/Y.smat");
+  X.load("data/X.smat");
+  Z.load("data/Z.smat");
+  W.load("data/W.smat");
 
   // Initialize beta, lambda, gamma
   lmfit xyfit(X, Y);
