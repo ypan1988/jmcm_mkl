@@ -298,7 +298,7 @@ inline void MCD::Gradient(const slab::vec& x, slab::vec& grad) {
       break;
 
     default:
-    slab::err_msg("Wrong value for free_param_");
+    apue::err_msg("Wrong value for free_param_");
   }
 }
 
